@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto</title>
+  <title>Contacto | Crónicas do NexusVerse</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,14 +21,22 @@
     </nav>
   </header>
 
-  <main>
-    <section class="intro">
+  <main class="content">
+    <section class="form-section">
       <h2>Fala connosco</h2>
-      <p>Envia-nos sugestões, feedback ou perguntas!</p>
-      <form>
-        <label>Nome:<br><input type="text" name="nome" required></label><br><br>
-        <label>Email:<br><input type="email" name="email" required></label><br><br>
-        <label>Mensagem:<br><textarea name="mensagem" rows="5" required></textarea></label><br><br>
+      <p>Se tens sugestões, perguntas ou apenas queres partilhar uma ideia, estamos à escuta!</p>
+
+      <form action="https://formspree.io/f/xkgrrkkw" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+        <input type="text" name="_gotcha" style="display:none">
         <button type="submit">Enviar</button>
       </form>
     </section>
