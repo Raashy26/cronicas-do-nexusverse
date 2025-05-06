@@ -1,30 +1,22 @@
-/* Reset básico */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* Fonte heroica */
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   background-color: #0d0d0d;
-  color: #ffffff;
-  line-height: 1.6;
+  color: #fff;
+  margin: 0;
 }
 
+/* Header e navegação */
 header {
   background-color: #111;
   padding: 20px;
+  text-align: center;
   border-bottom: 3px solid #e62429;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
 }
 
 header h1 {
+  font-size: 2.5rem;
   color: #e62429;
-  text-align: center;
-  font-size: 2rem;
 }
 
 nav ul {
@@ -32,6 +24,7 @@ nav ul {
   justify-content: center;
   list-style: none;
   margin-top: 10px;
+  padding: 0;
 }
 
 nav ul li {
@@ -51,85 +44,94 @@ nav ul li a:hover {
   border-bottom: 2px solid #e62429;
 }
 
-main {
-  max-width: 1000px;
-  margin: auto;
-  padding: 20px;
+/* Hero Section */
+.hero {
+  background-image: url('image/fundo-heroico.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 80px 20px;
 }
 
-.artigo, article {
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #e62429;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #b81e22;
+}
+
+/* Artigos / Cards */
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.card {
   background-color: #1a1a1a;
   padding: 20px;
-  margin-bottom: 20px;
-  border-left: 4px solid #e62429;
+  width: 280px;
+  text-align: center;
   border-radius: 8px;
-  transition: transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
 }
 
-.artigo:hover, article:hover {
-  transform: scale(1.01);
-  box-shadow: 0 0 10px rgba(230, 36, 41, 0.6);
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-.artigo h2, article h3 {
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
   color: #e62429;
+  margin: 15px 0;
 }
 
+.card .read-more {
+  color: #e62429;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer */
 footer {
   background-color: #111;
   color: #aaa;
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  font-size: 0.9rem;
 }
 
-/* Cookie banner */
-#cookie-banner {
-  background: #333;
-  color: #fff;
-  padding: 15px;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: 999;
-}
-
-button {
-  background-color: #e62429;
-  color: #fff;
-  border: none;
-  padding: 10px 15px;
-  margin-top: 10px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
+/* Efeito Hover para o botão */
 button:hover {
   background-color: #b81e22;
-}
-
-form input, form textarea {
-  width: 100%;
-  padding: 10px;
-  background-color: #2c2c2c;
-  border: 1px solid #555;
-  color: #fff;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  border-radius: 4px;
-}
-
-/* Responsivo */
-@media (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav ul li {
-    margin: 10px 0;
-  }
 }
