@@ -182,3 +182,8 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+
+/* Efeito Hover para o botão */
+button:hover {
+  background-color: #b81e22;
+}
