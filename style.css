@@ -78,14 +78,62 @@ nav ul li a:hover {
   background-color: #b81e22;
 }
 
+/* Seção de Destaques */
+.destaques {
+  padding: 2rem;
+  background-color: #1a1a1a;
+}
+
+.destaques h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #e62429;
+  margin-bottom: 1rem;
+}
+
+.destaque-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  scroll-snap-type: x mandatory;
+}
+
+.destaque-card {
+  min-width: 300px;
+  flex-shrink: 0;
+  background-color: #222;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.3);
+  overflow: hidden;
+  scroll-snap-align: start;
+  transition: transform 0.3s;
+}
+
+.destaque-card:hover {
+  transform: scale(1.03);
+}
+
+.destaque-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.destaque-card p {
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: #fff;
+}
+
 /* Centralizar o título "Últimos Artigos" */
 .latest-articles h2 {
   text-align: center;
-  font-size: 2rem; /* Ajuste o tamanho conforme necessário */
-  color: #e62429; /* Cor que combine com o restante do site */
-  margin-bottom: 20px; /* Espaço abaixo do título */
+  font-size: 2rem;
+  color: #e62429;
+  margin-bottom: 20px;
 }
-
 
 /* Artigos / Cards */
 .articles {
@@ -152,7 +200,6 @@ nav ul li a:hover {
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
 }
-
 
 .artigo h2 {
   font-size: 2.5rem;
