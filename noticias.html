@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Últimas Notícias</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <style>
+    /* Estilo específico para a página de notícias */
+
+    header {
+      border-bottom: 3px solid #2d9cdb;
+    }
+
+    header h1 {
+      color: #2d9cdb;
+    }
+
+    nav ul li a:hover {
+      color: #2d9cdb;
+      border-bottom: 2px solid #2d9cdb;
+    }
+
+    .news-section h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #2d9cdb;
+      margin-bottom: 20px;
+    }
+
+    .news-section h2::before {
+      content: '📢 ';
+    }
+
+    .news-card h3 {
+      color: #2d9cdb;
+    }
+
+    .news-card .read-more {
+      color: #2d9cdb;
+    }
+
+    .news-card .read-more:hover {
+      text-decoration: underline;
+    }
+
+    form input:focus,
+    form textarea:focus {
+      outline: 2px solid #2d9cdb;
+    }
+
+    form button {
+      background-color: #2d9cdb;
+    }
+
+    form button:hover {
+      background-color: #1e7bbd;
+    }
+
+    button:hover {
+      background-color: #1e7bbd;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CRÓNICAS DO NEXUSVERSE</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="avaliacoes.html">Avaliações</a></li>
+        <li><a href="privacidade.html">Privacidade</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="news-section">
+      <h2>Últimas Notícias</h2>
+
+      <div class="articles">
+        <!-- Notícia 1 -->
+        <div class="news-card card">
+          <img src="images/news/noticia1.jpg" alt="Notícia 1">
+          <h3>Battle Beast Ganha HQ</h3>
+          <p>Lançamento em 14 de Maio marca uma nova fase no universo criado por Robert Kirkman</p>
+          <a href="noticias/noticia1.html" class="read-more">Ler mais</a>
+        </div>
+
+        <!-- Notícia 2 -->
+        <div class="news-card card">
+          <img src="images/news/noticia2.jpeg" alt="Notícia 2">
+          <h3>Marvel Rivals Temporada 2</h3>
+          <p>Nova temporada do jogo traz recompensa exclusiva para jogadores conectados à Twitch</p>
+          <a href="noticias/noticia2.html" class="read-more">Ler mais</a>
+        </div>
+
+        <!-- Notícia 3 -->
+        <div class="news-card card">
+          <img src="images/news/noticia3.jpeg" alt="Notícia 3">
+          <h3>Ironheart no Disney+</h3>
+          <p>Riri Williams retorna em nova série do Disney+ com estreia marcada para 24 de junho</p>
+          <a href="noticias/noticia3.html" class="read-more">Ler mais</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CRÓNICAS DO NEXUSVERSE. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
