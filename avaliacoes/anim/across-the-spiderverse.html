@@ -46,8 +46,36 @@
     </div>
   </main>
 
+    <div class="share-buttons" style="text-align:center; margin: 40px 0;">
+  <h3>Partilhar esta análise:</h3>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://teusite.com/avaliacoes/anim/across-the-spiderverse.html" 
+     target="_blank" class="cta-button" style="margin: 5px;">Facebook</a>
+
+  <a href="https://twitter.com/intent/tweet?text=Confere%20a%20an%C3%A1lise%20de%20The%20Batman%202022!&url=https://teusite.com/avaliacoes/anim/across-the-spiderverse.html" 
+     target="_blank" class="cta-button" style="margin: 5px;">Twitter</a>
+
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://teusite.com/avaliacoes/anim/anim2.html" 
+     target="_blank" class="cta-button" style="margin: 5px;">LinkedIn</a>
+
+  <button onclick="copyLink('https://teusite.com/avaliacoes/anim/across-the-spiderverse.html')" 
+          class="cta-button" style="margin: 5px;">Copiar Link</button>
+</div>
+
   <footer>
     <p>&copy; 2025 Crónicas do NexusVerse</p>
   </footer>
+
+  
+  <script>
+  function copyLink(url) {
+    navigator.clipboard.writeText(url).then(() => {
+      alert("Link copiado para a área de transferência!");
+    }).catch(err => {
+      alert("Erro ao copiar link: " + err);
+    });
+  }
+</script>
+
 </body>
 </html>
