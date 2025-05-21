@@ -406,8 +406,20 @@ button:hover {
     gap: 0.5rem;
   }
 
-  .destaque-card {
-    min-width: 250px;
+   .destaque-card {
+    min-width: 240px;
+  }
+
+  .destaque-card img {
+    height: 140px;
+  }
+
+  .destaque-card p {
+    font-size: 0.9rem;
+  }
+
+  .destaques h2 {
+    font-size: 1.5rem;
   }
 
   .articles {
