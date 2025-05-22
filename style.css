@@ -100,8 +100,9 @@ nav ul li a:hover {
 }
 
 .destaque-card {
-  min-width: 300px;
-  flex-shrink: 0;
+  width: 100%;
+  max-width: 300px;
+  flex: 0 0 auto;
   background-color: #222;
   border-radius: 10px;
   box-shadow: 0 0 8px rgba(0,0,0,0.3);
@@ -109,6 +110,7 @@ nav ul li a:hover {
   scroll-snap-align: start;
   transition: transform 0.3s;
 }
+
 
 .destaque-card:hover {
   transform: scale(1.03);
@@ -407,8 +409,10 @@ button:hover {
   }
 
    .destaque-card {
-    min-width: 240px;
-  }
+  width: 220px;
+  max-width: 90%;
+}
+
 
   .destaque-card img {
     height: 140px;
