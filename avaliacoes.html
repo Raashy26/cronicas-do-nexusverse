@@ -77,6 +77,43 @@
       font-size: 1.1rem;
       color: #fff;
     }
+
+    .read-more {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 8px 16px;
+      background-color: transparent;
+      border: 1px solid #e62429;
+      color: #e62429;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: all 0.3s;
+    }
+
+    .read-more:hover {
+      background-color: #e62429;
+      color: white;
+    }
+
+    #paginacao-avaliacoes button {
+      background-color: #e62429;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      margin: 4px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #paginacao-avaliacoes button:hover {
+      background-color: #b81e22;
+    }
+
+    #paginacao-avaliacoes button[style*="bold"] {
+      background-color: #b81e22;
+    }
   </style>
 </head>
 <body>
@@ -94,106 +131,24 @@
     </nav>
   </header>
 
-  <!-- ... (head e header mantêm-se iguais) ... -->
+  <section class="avaliacoes-section">
+    <h2>🎬 Avaliações</h2>
 
-<section class="avaliacoes-section">
-  <h2>🎬 Avaliações</h2>
-
-  <div class="filter-buttons">
-    <button class="active" onclick="filterAvaliacoes('todos')">Tudo</button>
-    <button onclick="filterAvaliacoes('filme')">Filmes</button>
-    <button onclick="filterAvaliacoes('serie')">Séries</button>
-    <button onclick="filterAvaliacoes('animacao')">Animações</button>
-  </div>
-
-  <div class="avaliacoes-container">
-    <!-- Filmes -->
-    <div class="avaliacao-card filme">
-      <img src="images/aval/gotg3.jpg" alt="Guardiões da Galáxia Vol. 3">
-      <h3>Guardiões da Galáxia Vol. 3</h3>
-      <p>Nota: 8.5/10</p>
-      <a href="avaliacoes/movies/gotg3.html" class="read-more">Ler Análise Completa</a>
+    <div class="filter-buttons">
+      <button class="active" onclick="filterAvaliacoes('todos')">Tudo</button>
+      <button onclick="filterAvaliacoes('filme')">Filmes</button>
+      <button onclick="filterAvaliacoes('serie')">Séries</button>
+      <button onclick="filterAvaliacoes('animacao')">Animações</button>
     </div>
 
-    <div class="avaliacao-card filme">
-      <img src="images/aval/batman2022.jpg" alt="The Batman 2022">
-      <h3>The Batman 2022</h3>
-      <p>Nota: 8/10</p>
-      <a href="avaliacoes/movies/batman2022.html" class="read-more">Ler Análise Completa</a>
-    </div>
+    <div class="avaliacoes-container" id="avaliacoes-container"></div>
+    <div id="paginacao-avaliacoes" style="text-align: center; margin-bottom: 40px;"></div>
+  </section>
 
-    <!-- Séries -->
-    <div class="avaliacao-card serie">
-      <img src="images/aval/loki2.jpg" alt="Loki - Temporada 2">
-      <h3>Loki (Temp. 2)</h3>
-      <p>Nota: 8.2/10</p>
-      <a href="avaliacoes/series/loki2.html" class="read-more">Ler Análise Completa</a>
-    </div>
+  <footer>
+    <p>&copy; 2025 Crónicas do NexusVerse</p>
+  </footer>
 
-    <div class="avaliacao-card serie">
-      <img src="images/aval/theboys4.jpeg" alt="The Boys">
-      <h3>The Boys (Temp. 4)</h3>
-      <p>Nota: 8/10</p>
-      <a href="avaliacoes/series/theboys4.html" class="read-more">Ler Análise Completa</a>
-    </div>
-
-    <!-- Animações -->
-    <div class="avaliacao-card animacao">
-      <img src="images/aval/across-the-spiderverse.jpg" alt="Spider-Man: Across the Spider-Verse">
-      <h3>Spider-Verse 2</h3>
-      <p>Nota: 9.2/10</p>
-      <a href="avaliacoes/anim/across-the-spiderverse.html" class="read-more">Ler Análise Completa</a>
-    </div>
-
-    <div class="avaliacao-card animacao">
-      <img src="images/aval/arcane2.jpg" alt="Arcane">
-      <h3>Arcane</h3>
-      <p>Nota: 8.2/10</p>
-      <a href="avaliacoes/anim/arcane2.html" class="read-more">Ler Análise Completa</a>
-    </div>
-  </div>
-</section>
-
-<footer>
-  <p>&copy; 2025 Crónicas do NexusVerse</p>
-</footer>
-
-<script>
-  function filterAvaliacoes(tipo) {
-    const cards = document.querySelectorAll('.avaliacao-card');
-    const buttons = document.querySelectorAll('.filter-buttons button');
-
-    buttons.forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-
-    cards.forEach(card => {
-      if (tipo === 'todos') {
-        card.style.display = 'block';
-      } else {
-        card.style.display = card.classList.contains(tipo) ? 'block' : 'none';
-      }
-    });
-  }
-
-  
-</script>
-
-<style>
-  .read-more {
-    display: inline-block;
-    margin-bottom: 15px;
-    padding: 8px 16px;
-    background-color: transparent;
-    border: 1px solid #e62429;
-    color: #e62429;
-    font-weight: bold;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: all 0.3s;
-  }
-
-  .read-more:hover {
-    background-color: #e62429;
-    color: white;
-  }
-</style>
+  <script src="scripts/avaliacoes.js"></script>
+</body>
+</html>

@@ -41,14 +41,12 @@ function renderizarPaginacao() {
   for (let i = 1; i <= totalPaginas; i++) {
     const botao = document.createElement('button');
     botao.textContent = i;
+    botao.className = (i === paginaAtual) ? 'active' : '';
     botao.onclick = () => {
       paginaAtual = i;
       renderizarArtigos();
       renderizarPaginacao();
     };
-    if (i === paginaAtual) {
-      botao.style.fontWeight = 'bold';
-    }
     paginacao.appendChild(botao);
   }
 }

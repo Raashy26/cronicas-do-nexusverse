@@ -8,6 +8,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
   <style>
     /* Estilo específico para a página de notícias */
+     #paginacao-noticias button {
+    background-color: #2d9cdb;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    margin: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #paginacao-noticias button:hover,
+  #paginacao-artigos button:hover {
+    background-color: #217bb0;
+  }
+
+  #paginacao-noticias button.active,
+  #paginacao-artigos button.active {
+    background-color: #217bb0;
+  }
 
     header {
       border-bottom: 3px solid #2d9cdb;
@@ -83,37 +103,17 @@
     <section class="news-section">
       <h2>Últimas Notícias</h2>
 
-      <div class="articles">
-        <!-- Notícia 1 -->
-        <div class="news-card card">
-          <img src="images/news/battlebeast.jpg" alt="Notícia 1">
-          <h3>Battle Beast Ganha HQ</h3>
-          <p>Lançamento em 14 de Maio marca uma nova fase no universo criado por Robert Kirkman</p>
-          <a href="noticias/battlebeast.html" class="read-more">Ler mais</a>
-        </div>
+      <div class="articles" id="noticias-container"></div>
+      <div id="paginacao-noticias" style="text-align: center; margin-top: 20px;"></div>
 
-        <!-- Notícia 2 -->
-        <div class="news-card card">
-          <img src="images/news/marvelrivals2.jpeg" alt="Notícia 2">
-          <h3>Marvel Rivals Temporada 2</h3>
-          <p>Nova temporada do jogo traz recompensa exclusiva para jogadores conectados à Twitch</p>
-          <a href="noticias/marvelrivals2.html" class="read-more">Ler mais</a>
-        </div>
-
-        <!-- Notícia 3 -->
-        <div class="news-card card">
-          <img src="images/news/ironheart.jpeg" alt="Notícia 3">
-          <h3>Ironheart no Disney+</h3>
-          <p>Riri Williams retorna em nova série do Disney+ com estreia marcada para 24 de junho</p>
-          <a href="noticias/ironheart.html" class="read-more">Ler mais</a>
-        </div>
-      </div>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 CRÓNICAS DO NEXUSVERSE. Todos os direitos reservados.</p>
   </footer>
+
+<script src="scripts/noticias.js"></script>
 
 </body>
 </html>
