@@ -1,0 +1,44 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "artigos"
+    label: "Artigos"
+    folder: "conteudo/artigos"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Data", name: "data", widget: "datetime" }
+      - { label: "Imagem", name: "imagem", widget: "image" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Corpo do artigo", name: "body", widget: "markdown" }
+
+  - name: "noticias"
+    label: "Notícias"
+    folder: "conteudo/noticias"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Data", name: "data", widget: "datetime" }
+      - { label: "Imagem", name: "imagem", widget: "image" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Conteúdo da notícia", name: "body", widget: "markdown" }
+
+  - name: "avaliacoes"
+    label: "Avaliações"
+    folder: "conteudo/avaliacoes"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Tipo", name: "tipo", widget: "select", options: ["filme", "serie", "anim"] }
+      - { label: "Data", name: "data", widget: "datetime" }
+      - { label: "Imagem", name: "imagem", widget: "image" }
+      - { label: "Link", name: "link", widget: "string" }
+      - { label: "Corpo da avaliação", name: "body", widget: "markdown" }
