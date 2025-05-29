@@ -12,11 +12,12 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Data", name: "data", widget: "datetime" }
       - { label: "Imagem", name: "imagem", widget: "image" }
-      - { label: "Link", name: "link", widget: "string" }
-      - { label: "Corpo do artigo", name: "body", widget: "markdown" }
+      - { label: "Palavras-chave", name: "keywords", widget: "list", required: false }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
 
   - name: "noticias"
     label: "Notícias"
@@ -24,21 +25,54 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Título", name: "titulo", widget: "string" }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Data", name: "data", widget: "datetime" }
       - { label: "Imagem", name: "imagem", widget: "image" }
-      - { label: "Link", name: "link", widget: "string" }
-      - { label: "Conteúdo da notícia", name: "body", widget: "markdown" }
+      - { label: "Palavras-chave", name: "keywords", widget: "list", required: false }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
 
-  - name: "avaliacoes"
-    label: "Avaliações"
-    folder: "conteudo/avaliacoes"
+  - name: "avaliacoes_anim"
+    label: "Avaliações - Animação"
+    folder: "conteudo/avaliacoes/anim"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Título", name: "titulo", widget: "string" }
-      - { label: "Tipo", name: "tipo", widget: "select", options: ["filme", "serie", "anim"] }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Nota", name: "nota", widget: "number", min: 0, max: 10, step: 0.1 }
+      - { label: "Tipo", name: "tipo", widget: "hidden", default: "anim" }
       - { label: "Data", name: "data", widget: "datetime" }
       - { label: "Imagem", name: "imagem", widget: "image" }
-      - { label: "Link", name: "link", widget: "string" }
-      - { label: "Corpo da avaliação", name: "body", widget: "markdown" }
+      - { label: "Palavras-chave", name: "keywords", widget: "list", required: false }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
+
+  - name: "avaliacoes_filmes"
+    label: "Avaliações - Filmes"
+    folder: "conteudo/avaliacoes/movies"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Nota", name: "nota", widget: "number", min: 0, max: 10, step: 0.1 }
+      - { label: "Tipo", name: "tipo", widget: "hidden", default: "filme" }
+      - { label: "Data", name: "data", widget: "datetime" }
+      - { label: "Imagem", name: "imagem", widget: "image" }
+      - { label: "Palavras-chave", name: "keywords", widget: "list", required: false }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
+
+  - name: "avaliacoes_series"
+    label: "Avaliações - Séries"
+    folder: "conteudo/avaliacoes/series"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Nota", name: "nota", widget: "number", min: 0, max: 10, step: 0.1 }
+      - { label: "Tipo", name: "tipo", widget: "hidden", default: "serie" }
+      - { label: "Data", name: "data", widget: "datetime" }
+      - { label: "Imagem", name: "imagem", widget: "image" }
+      - { label: "Palavras-chave", name: "keywords", widget: "list", required: false }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }
