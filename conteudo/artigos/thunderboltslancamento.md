@@ -1,6 +1,6 @@
 ---
 titulo: "Thunderbolts*: O Novo Filme da Marvel"
-nota: 8.8
+nota: null
 imagem: "../images/artigos/thunderbolts.jpg"
 tipo: "artigo"
 slug: "thunderbolts-marvel"
