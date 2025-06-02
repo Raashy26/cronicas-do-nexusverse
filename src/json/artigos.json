@@ -2,19 +2,19 @@
   {
     "titulo": "Top 5 Heróis Mais Subestimados",
     "imagem": "images/artigos/5heroissubestimados.jpg",
-    "link": "posts/5heroissubestimados.html",
+    "link": "/conteudo/artigos/5heroissubestimados.md",
     "data": "2025-05-28"
   },
   {
     "titulo": "Thunderbolts: O Novo Filme da Marvel",
     "imagem": "images/artigos/thunderbolts.jpg",
-    "link": "posts/thunderbolts.html",
+    "link": "/conteudo/artigos/thunderboltslancamento.md",
     "data": "2025-05-27"
   },
   {
     "titulo": "O Regresso dos X-Men?",
     "imagem": "images/artigos/regressoxmen.jpg",
-    "link": "posts/regressoxmen.html",
+    "link": "/conteudo/artigos/regressoxmen.md",
     "data": "2025-05-26"
   }
 ]

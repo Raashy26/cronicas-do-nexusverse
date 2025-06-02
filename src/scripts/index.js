@@ -1,6 +1,6 @@
 async function carregarConteudoInicial() {
   // Carrega e ordena artigos
-  const respostaArtigos = await fetch('artigos.json');
+  const respostaArtigos = await fetch('json/artigos.json');
   const artigos = await respostaArtigos.json();
   artigos.sort((a, b) => new Date(b.data) - new Date(a.data));
   const artigosRecentes = artigos.slice(0, 10);
@@ -20,7 +20,7 @@ async function carregarConteudoInicial() {
   });
 
   // Carrega e ordena notícias
-  const respostaNoticias = await fetch('noticias.json');
+  const respostaNoticias = await fetch('json/noticias.json');
   const noticias = await respostaNoticias.json();
   noticias.sort((a, b) => new Date(b.data) - new Date(a.data));
   const noticiasRecentes = noticias.slice(0, 3);

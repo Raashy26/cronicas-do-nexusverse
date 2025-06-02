@@ -2,17 +2,18 @@
   "name": "html-server-1",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
-  "start": "eleventy --serve"
-},
-
-
-  
+  "scripts": {
+    "start": "eleventy --serve"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@11ty/eleventy": "^3.1.0"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.3.1"
   }
 }
