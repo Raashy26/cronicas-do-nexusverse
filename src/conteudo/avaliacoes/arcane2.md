@@ -4,7 +4,7 @@ nota: 8.2
 imagem: "../../images/aval/arcane2.jpg"
 tipo: anim
 slug: "arcane-2"
-data: 2025-01-15
+data: 2025-05-23
 keywords:
   - Crítica Arcane Temporada 2 Netflix
   - Análise série League of Legends

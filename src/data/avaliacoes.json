@@ -5,7 +5,7 @@
     "nota": "8.5/10",
     "link": "avaliacoes/movies/gotg3.html",
     "tipo": "filme",
-    "data": "2025-05-20"
+    "data": "2025-05-28"
   },
   {
     "titulo": "The Batman 2022",
@@ -13,7 +13,7 @@
     "nota": "8/10",
     "link": "avaliacoes/movies/batman2022.html",
     "tipo": "filme",
-    "data": "2025-04-12"
+    "data": "2025-05-27"
   },
   {
     "titulo": "Loki (Temp. 2)",
@@ -21,7 +21,7 @@
     "nota": "8.2/10",
     "link": "avaliacoes/series/loki2.html",
     "tipo": "serie",
-    "data": "2025-03-15"
+    "data": "2025-05-26"
   },
   {
     "titulo": "The Boys (Temp. 4)",
@@ -29,7 +29,7 @@
     "nota": "8/10",
     "link": "avaliacoes/series/theboys4.html",
     "tipo": "serie",
-    "data": "2025-03-01"
+    "data": "2025-05-25"
   },
   {
     "titulo": "Spider-Verse 2",
@@ -37,7 +37,7 @@
     "nota": "9.2/10",
     "link": "avaliacoes/anim/across-the-spiderverse.html",
     "tipo": "animacao",
-    "data": "2025-02-18"
+    "data": "2025-05-24"
   },
   {
     "titulo": "Arcane",
@@ -45,6 +45,6 @@
     "nota": "8.2/10",
     "link": "avaliacoes/anim/arcane2.html",
     "tipo": "animacao",
-    "data": "2025-02-01"
+    "data": "2025-05-23"
   }
 ]

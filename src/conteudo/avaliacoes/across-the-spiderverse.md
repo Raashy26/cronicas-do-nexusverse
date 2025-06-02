@@ -4,7 +4,7 @@ nota: 9.2
 imagem: "../../images/aval/across-the-spiderverse.jpg"
 tipo: anim               
 slug: "across-the-spiderverse"
-data: 2025-01-01
+data: 2025-05-24
 keywords:
   - Crítica Spider-Man Across the Spider-Verse
   - Análise Spider-Verse 2

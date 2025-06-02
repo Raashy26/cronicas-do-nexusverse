@@ -4,7 +4,7 @@ nota: 8.0
 tipo: serie
 imagem: "images/aval/theboys4.jpeg"
 slug: "theboys4"
-data: 2025-01-01
+data: 2025-05-25
 keywords:
   - The Boys temporada 4 crítica
   - The Boys 2025 Prime Video

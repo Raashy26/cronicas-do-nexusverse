@@ -4,7 +4,7 @@ nota: 8.2
 tipo: serie
 imagem: "images/aval/loki2.jpg"
 slug: "loki2"
-data: 2025-01-01
+data: 2025-05-26
 keywords:
   - Loki temporada 2 crítica
   - Loki série 2025 análise

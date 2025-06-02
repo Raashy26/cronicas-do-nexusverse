@@ -4,7 +4,7 @@ nota: 8.5
 tipo: movie
 imagem: "/images/aval/gotg3.jpg"
 slug: "gotg3"
-data: 2025-05-01
+data: 2025-05-28
 keywords:
   - Crítica Guardiões da Galáxia Vol. 3
   - Guardiões da Galáxia 3 final explicado

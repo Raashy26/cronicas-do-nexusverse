@@ -4,7 +4,7 @@ nota: 8
 tipo: movie
 imagem: "/images/aval/batman2022.jpg"
 slug: "batman2022"
-data: 2025-01-01
+data: 2025-05-27
 keywords:
   - Crítica The Batman 2022
   - Robert Pattinson Batman análise
