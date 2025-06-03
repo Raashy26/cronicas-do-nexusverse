@@ -2,7 +2,7 @@
 titulo: "Loki – Temporada 2"
 nota: 8.2
 tipo: serie
-imagem: "images/aval/loki2.jpg"
+imagem: "/images/aval/loki2.jpg"
 slug: "loki2"
 data: 2025-05-26
 keywords:
@@ -13,7 +13,7 @@ keywords:
   - Loki e Sylvie relacionamento
   - Marvel séries Disney+
   - Cliffhanger Loki temporada 2
-layout: null
+layout: layouts/avaliations.njk
 permalink: /avaliacoes/loki2/index.html    
 ---
 

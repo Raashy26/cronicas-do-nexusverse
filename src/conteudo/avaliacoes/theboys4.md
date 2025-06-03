@@ -2,7 +2,7 @@
 title: "The Boys – Temporada 4 (2025): Mais Violenta, Política e Perturbadora do que Nunca"
 nota: 8.0
 tipo: serie
-imagem: "images/aval/theboys4.jpeg"
+imagem: "/images/aval/theboys4.jpeg"
 slug: "theboys4"
 data: 2025-05-25
 keywords:
@@ -13,7 +13,7 @@ keywords:
   - Temp V efeitos Butcher
   - Satira política The Boys
   - Série violenta super-heróis adultos
-layout: null
+layout: layouts/avaliations.njk
 permalink: /avaliacoes/theboys4/index.html    
 ---
 

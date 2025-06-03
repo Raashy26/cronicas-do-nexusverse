@@ -1,7 +1,7 @@
 ---
 titulo: "Homem-Aranha no Aranhaverso"
 nota: 9.2
-imagem: "../../images/aval/across-the-spiderverse.jpg"
+imagem: "/images/aval/across-the-spiderverse.jpg"
 tipo: anim               
 slug: "across-the-spiderverse"
 data: 2025-05-24
@@ -13,7 +13,7 @@ keywords:
   - Gwen Stacy arco emocional
   - Spider-Verse cliffhanger explicado
   - Estilo visual animação Spider-Man
-layout: null
+layout: layouts/avaliations.njk
 permalink: /avaliacoes/across-the-spiderverse/index.html  
 ---
 

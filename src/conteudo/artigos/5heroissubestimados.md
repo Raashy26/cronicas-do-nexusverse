@@ -1,7 +1,7 @@
 ---
 titulo: "Top 5 Heróis Mais Subestimados dos Universos Marvel e DC"
 nota: null
-imagem: "../images/artigos/5heroissubestimados.jpg"
+imagem: "/images/artigos/5heroissubestimados.jpg"
 tipo: "artigo"
 slug: "5heroissubestimados"
 data: "2025-05-28"
@@ -12,7 +12,7 @@ keywords:
   - Nightwing Blue Beetle Zatanna
   - Sersi Moon Knight underrated
   - heróis que merecem destaque
-layout: nlayouts/article.njk
+layout: layouts/article.njk
 permalink: /artigos/5heroissubestimados/index.html
 ---
 

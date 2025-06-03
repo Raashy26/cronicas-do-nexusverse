@@ -1,12 +1,12 @@
 ---
 titulo: "Thunderbolts*: O Novo Filme da Marvel"
 nota: null
-imagem: "../images/artigos/thunderbolts.jpg"
+imagem: "/images/artigos/thunderbolts.jpg"
 tipo: "artigo"
 slug: "thunderbolts-marvel"
 data: "2025-05-27"
 keywords: ["Thunderbolts", "MCU", "Yelena Belova", "Sentinela", "John Walker", "Florence Pugh", "Jake Schreier", "Vingadores", "Novos Vingadores"]
-layout: null
+layout: layouts/article.njk
 permalink: /artigos/thunderboltslancamento/index.html
 ---
 

@@ -1,7 +1,7 @@
 ---
 titulo: "Battle Beast Ganha Sua Própria HQ: Novo Capítulo do Universo Invincible é Lançado!"
 nota: null
-imagem: "../images/news/battlebeast.jpg"
+imagem: "/images/news/battlebeast.jpg"
 tipo: "notícia"
 slug: "battlebeast"
 data: "2025-05-28"
@@ -13,7 +13,7 @@ keywords:
   - HQ nova do Battle Beast
   - Prime Video série Invincible
   - Crossover quadrinhos Invincible
-layout: null
+layout: /layouts/news.njk
 permalink: /noticias/battlebeast/index.html
 ---
 

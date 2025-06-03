@@ -1,7 +1,7 @@
 ---
 titulo: "Marvel Rivals Temporada 2: Como Resgatar o Spray Exclusivo Chronovium via Twitch Drops"
 nota: null
-imagem: "../images/news/marvelrivals2.jpeg"
+imagem: "/images/news/marvelrivals2.jpeg"
 tipo: "notícia"
 slug: "marvelrivals2"
 data: "2025-05-27"
@@ -13,7 +13,7 @@ keywords:
   - comunidade Marvel Rivals
   - streamers Marvel Rivals PT-BR
   - skins e atualizações Marvel Rivals
-layout: null
+layout: /layouts/news.njk
 permalink: /noticias/marvelrivals2/index.html  
 ---
 

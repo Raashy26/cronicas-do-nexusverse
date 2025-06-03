@@ -1,12 +1,12 @@
 ---
 titulo: "O Regresso dos X-Men? O Futuro dos Mutantes no MCU"
 nota: null
-imagem: "../images/artigos/regressoxmen.jpg"
+imagem: "/images/artigos/regressoxmen.jpg"
 tipo: "artigo"
 slug: "regresso-xmen-mcu"
 data: "2025-05-26"
 keywords: ["X-Men", "MCU", "Deadpool", "Wolverine", "Mutantes", "Multiverso", "Avengers Doomsday", "Hugh Jackman", "Marvel"]
-layout: null
+layout: layouts/article.njk
 permalink: /artigos/regressoxmen/index.html
 ---
 

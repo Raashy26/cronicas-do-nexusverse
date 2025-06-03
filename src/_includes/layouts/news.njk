@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{ descricao or 'Fique por dentro das últimas notícias do universo dos heróis e BD\'s.' }}">
+  <meta name="keywords" content="notícias, novidades, heróis, quadrinhos, filmes, séries">
+  <title>{{ titulo }} | Crónicas do NexusVerse</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <style>
+    header {
+      border-bottom: 3px solid #2d9cdb;
+    }
+
+    header h1 {
+      color: #2d9cdb;
+    }
+
+    nav ul li a:hover {
+      color: #2d9cdb;
+      border-bottom: 2px solid #2d9cdb;
+    }
+
+.news-section > h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #2d9cdb;
+  margin-bottom: 20px;
+}
+
+/* Subtítulos vindos do Markdown */
+.artigo h2 {
+  text-align: left;
+  color: #2d9cdb;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+
+    .news-section h2::before {
+      content: '📢 ';
+    }
+
+    /* Corrige os títulos h3 que vêm do ### no markdown */
+    .artigo h3 {
+      color: #2d9cdb;
+      margin-top: 1.5em;
+      margin-bottom: 0.5em;
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+
+    .artigo h2 {
+      color: #2d9cdb;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      font-weight: 800;
+      font-size: 2rem;
+    }
+
+    .artigo-footer a {
+      color: #2d9cdb;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .artigo-footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>CRÓNICAS DO NEXUSVERSE</h1>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Início</a></li>
+        <li><a href="/artigos.html">Artigos</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+        <li><a href="/noticias.html">Notícias</a></li>
+        <li><a href="/avaliacoes.html">Avaliações</a></li>
+        <li><a href="/privacidade.html">Privacidade</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="artigo-main">
+    <section class="news-section">
+      <h2>{{ titulo }}</h2>
+
+      {% if imagem %}
+        <img src="{{ imagem | url }}" alt="{{ titulo }}" class="artigo-img" />
+      {% endif %}
+
+      <article class="artigo">
+        {{ content | safe }}
+      </article>
+
+      <div class="artigo-footer" style="text-align: center; margin-top: 40px;">
+        <a href="/noticias.html">← Voltar às Notícias</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CRÓNICAS DO NEXUSVERSE. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

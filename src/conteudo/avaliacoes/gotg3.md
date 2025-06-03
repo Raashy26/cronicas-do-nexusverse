@@ -13,7 +13,7 @@ keywords:
   - Alto Evolucionário vilão
   - James Gunn despedida Marvel
   - Trilha sonora Guardiões 3
-layout: null
+layout: layouts/avaliations.njk
 permalink: /avaliacoes/gotg3/index.html    
 ---
 

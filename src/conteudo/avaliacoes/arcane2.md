@@ -1,7 +1,7 @@
 ---
 titulo: "Arcane – Temporada 2"
 nota: 8.2
-imagem: "../../images/aval/arcane2.jpg"
+imagem: "/images/aval/arcane2.jpg"
 tipo: anim
 slug: "arcane-2"
 data: 2025-05-23
@@ -13,7 +13,7 @@ keywords:
   - Trilha sonora Arcane 2025
   - Arcane segunda temporada spoilers
   - Caitlyn Jayce evolução personagens
-layout: null
+layout: layouts/avaliations.njk
 permalink: /avaliacoes/arcane2/index.html    
 ---
 

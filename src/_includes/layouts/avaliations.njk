@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{ descricao or 'Avaliação detalhada dos melhores heróis, filmes e séries.' }}">
+  <meta name="keywords" content="avaliação, reviews, críticas, heróis, filmes, séries">
+  <title>{{ titulo }} | Crónicas do NexusVerse</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <h1>Crónicas do NexusVerse</h1>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Início</a></li>
+        <li><a href="/artigos.html">Artigos</a></li>
+        <li><a href="/contacto.html">Contacto</a></li>
+        <li><a href="/noticias.html">Notícias</a></li>
+        <li><a href="/avaliacoes.html">Avaliações</a></li>
+        <li><a href="/privacidade.html">Privacidade</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="artigo-main">
+    <div class="artigo-header">
+      <h2>{{ titulo }}</h2>
+      {% if imagem %}
+        <img src="{{ imagem | url }}" alt="{{ titulo }}" class="artigo-img" />
+      {% endif %}
+    </div>
+
+    <article class="artigo">
+      {{ content | safe }}
+    </article>
+
+    <div class="artigo-footer">
+      <a href="/avaliacoes.html">← Voltar às Avaliações</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Crónicas do NexusVerse</p>
+  </footer>
+</body>
+</html>

@@ -1,7 +1,7 @@
 ---
 titulo: "Marvel Lança Trailer Oficial de Ironheart, Série que Conclui a Fase 5 do MCU"
 nota: null
-imagem: "../images/news/ironheart.jpeg"
+imagem: "/images/news/ironheart.jpeg"
 tipo: "notícia"
 slug: "ironhearttrailer"
 data: "2025-05-26"
@@ -13,7 +13,7 @@ keywords:
   - Dominique Thorne Ironheart
   - série Marvel 2025
   - ciência vs magia no MCU
-layout: null
+layout: /layouts/news.njk
 permalink: /noticias/ironhearttrailer/index.html  
 ---
 

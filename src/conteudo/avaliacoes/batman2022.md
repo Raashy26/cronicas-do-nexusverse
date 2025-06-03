@@ -13,7 +13,7 @@ keywords:
   - Matt Reeves direção
   - Gotham City estilo noir
   - Trilha sonora Michael Giacchino Batman
-layout: null
+layout: layouts/avaliations.njk
 permalink: /avaliacoes/batman2022/index.html    
 ---
 
