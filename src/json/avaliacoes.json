@@ -3,7 +3,7 @@
     "titulo": "Guardiões da Galáxia Vol. 3",
     "imagem": "images/aval/gotg3.jpg",
     "nota": "8.5/10",
-    "link": "avaliacoes/movies/gotg3.html",
+    "link": "/avaliacoes/gotg3/",
     "tipo": "filme",
     "data": "2025-05-28"
   },
@@ -11,7 +11,7 @@
     "titulo": "The Batman 2022",
     "imagem": "images/aval/batman2022.jpg",
     "nota": "8/10",
-    "link": "avaliacoes/movies/batman2022.html",
+    "link": "/avaliacoes/batman2022/",
     "tipo": "filme",
     "data": "2025-05-27"
   },
@@ -19,7 +19,7 @@
     "titulo": "Loki (Temp. 2)",
     "imagem": "images/aval/loki2.jpg",
     "nota": "8.2/10",
-    "link": "avaliacoes/series/loki2.html",
+    "link": "/avaliacoes/loki2/",
     "tipo": "serie",
     "data": "2025-05-26"
   },
@@ -27,7 +27,7 @@
     "titulo": "The Boys (Temp. 4)",
     "imagem": "images/aval/theboys4.jpeg",
     "nota": "8/10",
-    "link": "avaliacoes/series/theboys4.html",
+    "link": "/avaliacoes/theboys4/",
     "tipo": "serie",
     "data": "2025-05-25"
   },
@@ -35,7 +35,7 @@
     "titulo": "Spider-Verse 2",
     "imagem": "images/aval/across-the-spiderverse.jpg",
     "nota": "9.2/10",
-    "link": "avaliacoes/anim/across-the-spiderverse.html",
+    "link": "/avaliacoes/across-the-spiderverse/",
     "tipo": "animacao",
     "data": "2025-05-24"
   },
@@ -43,7 +43,7 @@
     "titulo": "Arcane",
     "imagem": "images/aval/arcane2.jpg",
     "nota": "8.2/10",
-    "link": "avaliacoes/anim/arcane2.html",
+    "link": "/avaliacoes/arcane2/",
     "tipo": "animacao",
     "data": "2025-05-23"
   }

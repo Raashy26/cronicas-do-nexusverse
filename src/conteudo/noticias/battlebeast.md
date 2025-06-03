@@ -13,6 +13,8 @@ keywords:
   - HQ nova do Battle Beast
   - Prime Video série Invincible
   - Crossover quadrinhos Invincible
+layout: null
+permalink: /noticias/battlebeast/index.html
 ---
 
 ## 💥 Battle Beast Ganha Sua Própria HQ: Novo Capítulo do Universo Invincible é Lançado!

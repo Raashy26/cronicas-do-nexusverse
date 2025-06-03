@@ -13,6 +13,8 @@ keywords:
   - Trilha sonora Arcane 2025
   - Arcane segunda temporada spoilers
   - Caitlyn Jayce evolução personagens
+layout: null
+permalink: /avaliacoes/arcane2/index.html    
 ---
 
 ## 🎭 Arcane – Temporada 2: Um Retorno Sombrio, Intenso e Emocional ao Mundo de Piltover

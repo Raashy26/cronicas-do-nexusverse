@@ -3,13 +3,18 @@ let paginaAtualNoticias = 1;
 let noticias = [];
 
 async function carregarNoticias() {
-  const resposta = await fetch('noticias.json');
-  noticias = await resposta.json();
+  try {
+    const resposta = await fetch('/json/noticias.json'); // Caminho ajustado para Eleventy
+    noticias = await resposta.json();
 
-  noticias.sort((a, b) => new Date(b.data) - new Date(a.data));
+    noticias.sort((a, b) => new Date(b.data) - new Date(a.data));
 
-  renderizarNoticias();
-  renderizarPaginacaoNoticias();
+    renderizarNoticias();
+    renderizarPaginacaoNoticias();
+  } catch (erro) {
+    console.error("Erro ao carregar noticias.json:", erro);
+    document.getElementById('noticias-container').innerHTML = "<p>Não foi possível carregar as notícias.</p>";
+  }
 }
 
 function renderizarNoticias() {

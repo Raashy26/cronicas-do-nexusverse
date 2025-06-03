@@ -13,6 +13,8 @@ keywords:
   - Dominique Thorne Ironheart
   - série Marvel 2025
   - ciência vs magia no MCU
+layout: null
+permalink: /noticias/ironhearttrailer/index.html  
 ---
 
 ## 🧠 Marvel Lança Trailer Oficial de Ironheart, Série que Conclui a Fase 5 do MCU

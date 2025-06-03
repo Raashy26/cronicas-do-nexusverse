@@ -13,6 +13,8 @@ keywords:
   - comunidade Marvel Rivals
   - streamers Marvel Rivals PT-BR
   - skins e atualizações Marvel Rivals
+layout: null
+permalink: /noticias/marvelrivals2/index.html  
 ---
 
 ## 🎮 Marvel Rivals Temporada 2: Como Resgatar o Spray Exclusivo Chronovium via Twitch Drops

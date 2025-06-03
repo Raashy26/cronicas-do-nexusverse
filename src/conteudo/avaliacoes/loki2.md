@@ -13,6 +13,8 @@ keywords:
   - Loki e Sylvie relacionamento
   - Marvel séries Disney+
   - Cliffhanger Loki temporada 2
+layout: null
+permalink: /avaliacoes/loki2/index.html    
 ---
 
 ## 🕰️ Loki – Temporada 2 (2025): Um Retorno Repleto de Reviravoltas e Reflexões Sobre o Tempo

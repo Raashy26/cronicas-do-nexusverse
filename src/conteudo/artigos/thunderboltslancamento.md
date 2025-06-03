@@ -6,6 +6,8 @@ tipo: "artigo"
 slug: "thunderbolts-marvel"
 data: "2025-05-27"
 keywords: ["Thunderbolts", "MCU", "Yelena Belova", "Sentinela", "John Walker", "Florence Pugh", "Jake Schreier", "Vingadores", "Novos Vingadores"]
+layout: null
+permalink: /artigos/thunderboltslancamento/index.html
 ---
 
 O filme **"Thunderbolts*"** (2025) marca uma virada ousada no Universo Cinematográfico da Marvel (MCU), reunindo um grupo de anti-heróis em uma narrativa que mistura ação intensa e profundidade emocional. Dirigido por **Jake Schreier**, o longa apresenta personagens como *Yelena Belova*, *Bucky Barnes*, *John Walker* e o enigmático *Bob (Sentinela)*, explorando suas complexidades psicológicas e morais.

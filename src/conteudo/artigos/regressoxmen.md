@@ -6,6 +6,8 @@ tipo: "artigo"
 slug: "regresso-xmen-mcu"
 data: "2025-05-26"
 keywords: ["X-Men", "MCU", "Deadpool", "Wolverine", "Mutantes", "Multiverso", "Avengers Doomsday", "Hugh Jackman", "Marvel"]
+layout: null
+permalink: /artigos/regressoxmen/index.html
 ---
 
 Durante anos, os fãs aguardaram com expectativa o momento em que os **X-Men** seriam finalmente integrados ao *Universo Cinematográfico da Marvel* (MCU). Com a chegada de **Avengers: Doomsday** e o impacto cultural de **Deadpool & Wolverine**, esse momento parece estar mais próximo — e épico — do que nunca.

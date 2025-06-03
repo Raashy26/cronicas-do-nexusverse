@@ -13,6 +13,8 @@ keywords:
   - Gwen Stacy arco emocional
   - Spider-Verse cliffhanger explicado
   - Estilo visual animação Spider-Man
+layout: null
+permalink: /avaliacoes/across-the-spiderverse/index.html  
 ---
 
 ## ⭐ Análise

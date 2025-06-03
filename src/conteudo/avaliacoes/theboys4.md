@@ -13,6 +13,8 @@ keywords:
   - Temp V efeitos Butcher
   - Satira política The Boys
   - Série violenta super-heróis adultos
+layout: null
+permalink: /avaliacoes/theboys4/index.html    
 ---
 
 ## 💥 The Boys – Temporada 4 (2025): Mais Violenta, Política e Perturbadora do que Nunca

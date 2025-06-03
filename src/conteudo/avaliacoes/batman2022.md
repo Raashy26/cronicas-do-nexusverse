@@ -13,6 +13,8 @@ keywords:
   - Matt Reeves direção
   - Gotham City estilo noir
   - Trilha sonora Michael Giacchino Batman
+layout: null
+permalink: /avaliacoes/batman2022/index.html    
 ---
 
 # 🦇 The Batman (2022) — Uma Reinvenção Sombria e Detetivesca do Cavaleiro das Trevas

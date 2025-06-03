@@ -4,12 +4,17 @@ let tipoAtual = 'todos';
 let todasAvaliacoes = [];
 
 async function carregarAvaliacoes() {
-  const resposta = await fetch('avaliacoes.json');
-  todasAvaliacoes = await resposta.json();
-  todasAvaliacoes.sort((a, b) => new Date(b.data) - new Date(a.data));
+  try {
+    const resposta = await fetch('/json/avaliacoes.json'); // Caminho ajustado para Eleventy
+    todasAvaliacoes = await resposta.json();
+    todasAvaliacoes.sort((a, b) => new Date(b.data) - new Date(a.data));
 
-  renderizarAvaliacoes();
-  renderizarPaginacao();
+    renderizarAvaliacoes();
+    renderizarPaginacao();
+  } catch (erro) {
+    console.error("Erro ao carregar avaliacoes.json:", erro);
+    document.getElementById('avaliacoes-container').innerHTML = "<p>Não foi possível carregar as avaliações.</p>";
+  }
 }
 
 function renderizarAvaliacoes() {

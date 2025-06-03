@@ -3,13 +3,18 @@ let paginaAtual = 1;
 let artigos = [];
 
 async function carregarArtigos() {
-  const resposta = await fetch('artigos.json');
-  artigos = await resposta.json();
+  try {
+    const resposta = await fetch('/json/artigos.json'); // Caminho relativo a partir da raiz do site
+    artigos = await resposta.json();
 
-  artigos.sort((a, b) => new Date(b.data) - new Date(a.data));
+    artigos.sort((a, b) => new Date(b.data) - new Date(a.data));
 
-  renderizarArtigos();
-  renderizarPaginacao();
+    renderizarArtigos();
+    renderizarPaginacao();
+  } catch (erro) {
+    console.error("Erro ao carregar artigos.json:", erro);
+    document.getElementById('artigos-container').innerHTML = "<p>Não foi possível carregar os artigos.</p>";
+  }
 }
 
 function renderizarArtigos() {
