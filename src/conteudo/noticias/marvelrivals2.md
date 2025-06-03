@@ -75,6 +75,6 @@ O item parece estar relacionado a uma nova ameaça temporal que pode surgir nas 
 
 ---
 
-**📢 Já resgatou o seu spray Chronovium? [Comenta aqui](../contacto.html) se conseguiu e aproveita para compartilhar este post com a sua equipe de Marvel Rivals.**
+**📢 Já resgatou o seu spray Chronovium? [Comenta aqui](/contacto.html) se conseguiu e aproveita para compartilhar este post com a sua equipe de Marvel Rivals.**
 
 **Bora conquistar a Temporada 2 com estilo!**

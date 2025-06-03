@@ -55,7 +55,6 @@ A confirmação de personagens clássicos dos X-Men em *Avengers: Doomsday*, som
 Prepare-se para uma nova era onde Wolverine pode lutar lado a lado com Thor, Capitão América, Shang-Chi e Reed Richards — e os X-Men finalmente encontram seu lugar no universo Marvel oficial.
 
 **E você?** Acredita que Hugh Jackman vai mesmo aparecer em *Avengers: Doomsday*? Quais mutantes gostaria de ver no MCU oficial?  
-**[Deixe sua teoria nos comentários](../contacto.html)** e compartilhe este artigo com outros fãs dos X-Men!
+**[Deixe sua teoria nos comentários](/contacto.html)** e compartilhe este artigo com outros fãs dos X-Men!
 ```
 
-Se quiser que eu gere os próximos, é só mandar!

@@ -32,4 +32,4 @@ Além disso, a presença de personagens como o **Sentinela** e as conexões esta
 
 *Thunderbolts* representa uma mudança significativa na narrativa do MCU, oferecendo uma história que combina ação com uma exploração profunda dos personagens. Ao focar em anti-heróis e temas mais sombrios, o filme abre novas possibilidades para o universo Marvel, prometendo uma era de narrativas mais maduras e multifacetadas.
 
-💬 **E você, o que achou de "Thunderbolts*"? Compartilhe suas impressões e teorias [Comenta aqui](../contacto.html)**
+💬 **E você, o que achou de "Thunderbolts*"? Compartilhe suas impressões e teorias [Comenta aqui](/contacto.html)**

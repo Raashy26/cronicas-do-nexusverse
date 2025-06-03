@@ -70,4 +70,3 @@ Com o crescimento das plataformas de streaming e o sucesso de produções mais o
 
 Nightwing, Blue Beetle, Moon Knight, Sersi e Zatanna são verdadeiros tesouros escondidos no vasto universo das HQs. Talvez ainda não tenham brilhado nos holofotes do mainstream, mas estão prontos para surpreender os fãs que buscam algo além dos heróis já consagrados.
 
-[&laquo; Voltar à lista de artigos](../artigos.html)

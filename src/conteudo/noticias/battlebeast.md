@@ -75,5 +75,5 @@ Se a HQ for bem recebida, abre portas para explorar mais guerreiros lendários d
 
 ---
 
-**📢 Já leu “Invincible Universe: Battle Beast”? [Comente aqui](../contacto.html) suas impressões e teorias sobre o que pode vir a seguir!**  
+**📢 Já leu “Invincible Universe: Battle Beast”? [Comente aqui](/contacto.html) suas impressões e teorias sobre o que pode vir a seguir!**  
 E não se esqueça de compartilhar com aquele amigo que ama quadrinhos e precisa conhecer essa nova fase do universo *Invincible*!
