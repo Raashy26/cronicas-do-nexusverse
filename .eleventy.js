@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/images": "images" });
   eleventyConfig.addPassthroughCopy({ "src/scripts": "scripts" });
   eleventyConfig.addPassthroughCopy({ "src/style.css": "style.css" });
-  eleventyConfig.addPassthroughCopy({ "src/json": "json" }); // <-- NOVA LINHA para os .json
+  eleventyConfig.addPassthroughCopy({ "src/json": "json" });
 
   // Markdown personalizado
   const markdownLib = markdownIt({
@@ -17,15 +17,18 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownLib);
 
+  // ⚠️ Forçar Eleventy a reconhecer ficheiros .html na raiz de src/
+  eleventyConfig.addTemplateFormats("html");
+
   return {
     dir: {
-      input: "src",         // Entrada principal do conteúdo
-      includes: "_includes",// Layouts e includes
-      data: "data",         // Dados globais (JSON, JS)
-      output: "_site",      // Saída final
+      input: "src",
+      includes: "_includes",
+      data: "data",
+      output: "_site",
     },
-    markdownTemplateEngine: "njk",  // Processa Markdown com Nunjucks
-    htmlTemplateEngine: "njk",      // Processa HTML com Nunjucks
-    templateFormats: ["html", "md", "njk"], // Tipos de ficheiros a usar
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+    templateFormats: ["html", "md", "njk"], // Já está bem aqui!
   };
 };
