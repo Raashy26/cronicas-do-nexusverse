@@ -12,7 +12,7 @@ keywords:
   - Nightwing Blue Beetle Zatanna
   - Sersi Moon Knight underrated
   - heróis que merecem destaque
-layout: null
+layout: nlayouts/article.njk
 permalink: /artigos/5heroissubestimados/index.html
 ---
 
