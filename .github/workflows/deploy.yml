@@ -2,7 +2,7 @@ name: Deploy Eleventy to GitHub Pages
 
 on:
   push:
-    branches: [main] # ou 'master' se usares essa branch
+    branches: [master] # ou 'master' se usares essa branch
 
 jobs:
   build-deploy:
