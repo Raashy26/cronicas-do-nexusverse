@@ -2,7 +2,7 @@ name: Deploy Eleventy to GitHub Pages
 
 on:
   push:
-    branches: [master] 
+    branches: [master]
 
 jobs:
   build-deploy:
@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Build Eleventy site
-        run: npx eleventy
+        run: npx @11ty/eleventy
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
