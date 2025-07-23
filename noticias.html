@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Últimas Notícias</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+  <style>
+    /* Estilo específico para a página de notícias */
+     #paginacao-noticias button {
+    background-color: #2d9cdb;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    margin: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  #paginacao-noticias button:hover,
+  #paginacao-artigos button:hover {
+    background-color: #217bb0;
+  }
+
+  #paginacao-noticias button.active,
+  #paginacao-artigos button.active {
+    background-color: #217bb0;
+  }
+
+    header {
+      border-bottom: 3px solid #2d9cdb;
+    }
+
+    header h1 {
+      color: #2d9cdb;
+    }
+
+    nav ul li a:hover {
+      color: #2d9cdb;
+      border-bottom: 2px solid #2d9cdb;
+    }
+
+    .news-section h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #2d9cdb;
+      margin-bottom: 20px;
+    }
+
+    .news-section h2::before {
+      content: '📢 ';
+    }
+
+    .news-card h3 {
+      color: #2d9cdb;
+    }
+
+    .news-card .read-more {
+      color: #2d9cdb;
+    }
+
+    .news-card .read-more:hover {
+      text-decoration: underline;
+    }
+
+    form input:focus,
+    form textarea:focus {
+      outline: 2px solid #2d9cdb;
+    }
+
+    form button {
+      background-color: #2d9cdb;
+    }
+
+    form button:hover {
+      background-color: #1e7bbd;
+    }
+
+    button:hover {
+      background-color: #1e7bbd;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CRÓNICAS DO NEXUSVERSE</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="avaliacoes.html">Avaliações</a></li>
+        <li><a href="privacidade.html">Privacidade</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="news-section">
+      <h2>Últimas Notícias</h2>
+
+      <div class="articles" id="noticias-container"></div>
+      <div id="paginacao-noticias" style="text-align: center; margin-top: 20px;"></div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CRÓNICAS DO NEXUSVERSE. Todos os direitos reservados.</p>
+  </footer>
+
+<script src="scripts/noticias.js"></script>
+
+</body>
+</html>

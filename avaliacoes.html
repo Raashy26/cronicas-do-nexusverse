@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Avaliações - Crónicas do NexusVerse</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+
+  <style>
+    .filter-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin: 30px auto;
+    }
+
+    .filter-buttons button {
+      background-color: #e62429;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .filter-buttons button:hover,
+    .filter-buttons button.active {
+      background-color: #b81e22;
+    }
+
+    .avaliacoes-section h2 {
+      text-align: center;
+      color: #e62429;
+      font-size: 2.2rem;
+      margin-top: 40px;
+    }
+
+    .avaliacoes-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .avaliacao-card {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      width: 280px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.3);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .avaliacao-card:hover {
+      transform: scale(1.05);
+    }
+
+    .avaliacao-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+    }
+
+    .avaliacao-card h3 {
+      color: #e62429;
+      margin: 10px 0 5px;
+    }
+
+    .avaliacao-card p {
+      margin: 5px 0 15px;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+
+    .read-more {
+      display: inline-block;
+      margin-bottom: 15px;
+      padding: 8px 16px;
+      background-color: transparent;
+      border: 1px solid #e62429;
+      color: #e62429;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: all 0.3s;
+    }
+
+    .read-more:hover {
+      background-color: #e62429;
+      color: white;
+    }
+
+    #paginacao-avaliacoes button {
+      background-color: #e62429;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      margin: 4px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    #paginacao-avaliacoes button:hover {
+      background-color: #b81e22;
+    }
+
+    #paginacao-avaliacoes button[style*="bold"] {
+      background-color: #b81e22;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Crónicas do NexusVerse</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="avaliacoes.html">Avaliações</a></li>
+        <li><a href="privacidade.html">Privacidade</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="avaliacoes-section">
+    <h2>🎬 Avaliações</h2>
+
+    <div class="filter-buttons">
+      <button class="active" onclick="filterAvaliacoes('todos')">Tudo</button>
+      <button onclick="filterAvaliacoes('filme')">Filmes</button>
+      <button onclick="filterAvaliacoes('serie')">Séries</button>
+      <button onclick="filterAvaliacoes('animacao')">Animações</button>
+    </div>
+
+    <div class="avaliacoes-container" id="avaliacoes-container"></div>
+    <div id="paginacao-avaliacoes" style="text-align: center; margin-bottom: 40px;"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Crónicas do NexusVerse</p>
+  </footer>
+
+  <script src="scripts/avaliacoes.js"></script>
+</body>
+</html>

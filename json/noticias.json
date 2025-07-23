@@ -1,0 +1,20 @@
+[
+  {
+    "titulo": "Battle Beast Ganha HQ",
+    "imagem": "images/news/battlebeast.jpg",
+    "link": "/noticias/battlebeast/",
+    "data": "2025-05-28"
+  },
+  {
+    "titulo": "Marvel Rivals Temporada 2",
+    "imagem": "images/news/marvelrivals2.jpeg",
+    "link": "/noticias/marvelrivals2/",
+    "data": "2025-05-27"
+  },
+  {
+    "titulo": "Ironheart no Disney+",
+    "imagem": "images/news/ironheart.jpeg",
+    "link": "/noticias/ironhearttrailer/",
+    "data": "2025-05-26"
+  }
+]
