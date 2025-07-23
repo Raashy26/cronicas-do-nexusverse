@@ -29,6 +29,9 @@ module.exports = function (eleventyConfig) {
     },
     markdownTemplateEngine: "njk",
     htmlTemplateEngine: "njk",
-    templateFormats: ["html", "md", "njk"], // Já está bem aqui!
+    templateFormats: ["html", "md", "njk"],
+
+    // ⚠️ Fundamental para GitHub Pages funcionar corretamente
+    pathPrefix: "/cronicas-do-nexusverse/",
   };
 };
